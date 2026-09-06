@@ -33,8 +33,8 @@ jobs:
         shell: pwsh
         env:
           # these are read from GitHub Secrets; set them in the repo or organization secrets
-          RDP_USERNAME: ${{ secrets.RDP_USERNAME }}
-          RDP_PASSWORD: ${{ secrets.RDP_PASSWORD }}
+          RDP_USERNAME: ${{ secrets.abhi }}
+          RDP_PASSWORD: ${{ secrets.abhi99 }}
         run: |
           # Read from environment (populated from secrets)
           $username = $env:RDP_USERNAME
